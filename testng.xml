@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite    parallel= "classes" thread-count="3" name="testing baba">
+
+
+
+
+  <test    name="loginTest"  enabled="true">
+   <classes>
+       <class name="Test_Utility.loginTest"/>
+
+       <class name="Test_Utility.loginTest"/>
+        <class name="Test_Utility.loginTest"/>
+    </classes>
+
+
+
+  </test> <!-- Test -->
+ <test  name="login Test"  enabled="true">
+    <classes>
+      <class name="Test_Utility.loginTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+</suite> <!-- Suite -->
+
+
